@@ -1,6 +1,6 @@
 // tady je místo pro náš program
 function cerveny() {
-    let napis = document.querySelector('p');
+    let napis = document.querySelector('.textlev');
     napis.classList.toggle("cerveny");
 }
 
