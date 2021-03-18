@@ -1,7 +1,7 @@
 // tady je místo pro náš program
 function cerveny() {
-    let napis = document.querySelector('.textlev');
-    napis.style.color = 'red';
+    let napis = document.querySelector('p');
+    napis.classList.toggle("cerveny");
 }
 
 function tucne() {
